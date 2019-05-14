@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 31 31"
+    xmlns:cc="http://creativecommons.org/ns#"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<defs>
+    <linearGradient id="bg"
+        x1="0%" y1="0%" x2="100%" y2="0%"
+    >
+        <stop offset="0%" stop-color="#737eaf" />
+        <stop offset="16.6667%" stop-color="#adbeff" />
+        <stop offset="33.3333%" stop-color="#94a6f7" />
+        <stop offset="83.3333%" stop-color="#7b96f7" />
+        <stop offset="100%" stop-color="#3f457b" />
+    </linearGradient>
+    <linearGradient id="edge"
+        x1="0%" y1="0%" x2="100%" y2="100%"
+    >
+        <stop offset="50%" stop-color="#626e9f" />
+        <stop offset="60%" stop-color="#393a57" />
+    </linearGradient>
+</defs>
+
+<!--Container shadow-->
+<rect x="0" y="0" width="31" height="31"
+    rx="2"
+    fill="url(#edge)"
+/>
+
+<!--Container main-->
+<rect x="0" y="0" width="30" height="30"
+    rx="2"
+    fill="#94a6ef"
+/>
+
+<!--Container inner layer-->
+<rect x="3" y="3" width="24" height="24"
+    rx="2"
+    fill="#adbaff"
+/>
+
+<!--Unit fasteners-->
+<rect x="8" y="2" width="14" height="26"
+    rx="0.5"
+    fill="black"
+/>
+
+<!--Unit frame-->
+<rect x="6" y="6" width="18" height="18"
+    rx="0.5"
+    fill="black"
+/>
+
+<!--Unit inner layer-->
+<rect x="8" y="10" width="14" height="10"
+    rx="0.5"
+    fill="url(#bg)"
+/>
+
+<!--Top fastener inner piece-->
+<rect x="12" y="4" width="6" height="2"
+    rx="0.5"
+    fill="#d6dfff" 
+/>
+
+<!--Bottom fastener inner piece-->
+<rect x="12" y="24" width="6" height="2"
+    rx="0.5"
+    fill="#d6dfff"
+/>
+
+</svg>

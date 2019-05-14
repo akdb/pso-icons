@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 31 31"
+    xmlns:cc="http://creativecommons.org/ns#"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<defs>
+    <linearGradient id="bg"
+        x1="0%" y1="0%" x2="0%" y2="100%"
+    >
+        <stop offset="0%" stop-color="#6bc3a5" />
+        <stop offset="10%" stop-color="#adbaff" />
+        <stop offset="55%" stop-color="#bdcbff" />
+        <stop offset="95%" stop-color="#d6dbff" />
+    </linearGradient>
+    <linearGradient id="edge"
+        x1="0%" y1="0%" x2="100%" y2="100%"
+    >
+        <stop offset="50%" stop-color="#626e9f" />
+        <stop offset="60%" stop-color="#393a57" />
+    </linearGradient>
+    <linearGradient id="shield"
+        x1="0%" y1="0%" x2="0%" y2="100%"
+    >
+        <stop offset="0%" stop-color="#000008" />
+        <stop offset="50%" stop-color="#000010" />
+        <stop offset="80%" stop-color="#000039" />
+    </linearGradient>
+</defs>
+
+<!--Container shadow-->
+<rect x="0" y="0" width="31" height="31"
+    rx="2"
+    fill="url(#edge)"
+/>
+
+<!--Container main-->
+<rect x="0" y="0" width="30" height="30"
+    rx="2"
+    fill="#9ca6f7"
+/>
+
+<!--Container inner layer-->
+<rect x="3" y="3" width="24" height="24"
+    rx="2"
+    fill="url(#bg)"
+/>
+
+<!--Shield cross shadow-->
+<polygon
+    fill="#393e5f"
+    points="
+        4,12 12,12 12,4
+        18,4 18,12 26,12
+        26,16 18,16 18,26
+        12,26 12,16 4,16
+"/>
+
+<!--Top of shield-->
+<line x1="4" y1="5" x2="26" y2="5"
+    stroke="#080408" stroke-width="2"
+/>
+
+<!--Shield cross vertical beam-->
+<line x1="15" y1="4" x2="15" y2="27"
+    stroke="#080408" stroke-width="2"
+/>
+
+<!--Shield cross horizontal beam-->
+<line x1="4" y1="13" x2="26" y2="13"
+    stroke="#080408" stroke-width="2"
+/>
+
+<!--Shield curve-->
+<path
+    fill="none"
+    stroke="url(#shield)" stroke-width="4"
+    d="
+        M 6,5
+        L 6,18
+        A 1,1 0 1 0 24,18
+        L 24,6
+    "
+/>
+
+</svg>

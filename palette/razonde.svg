@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1007 866"
+    xmlns:cc="http://creativecommons.org/ns#"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<style>
+* {
+    stroke: #000;
+    stroke-width: 4;
+    fill: #efec00;
+}
+</style>
+
+<!-- Define one third, then rotate it around-->
+<g id="g">
+    <!--NW edge-->
+    <path d="
+        m   198,444
+            -103,0
+            157,-271
+            80,46
+        z"
+    />
+
+    <!--SE trail-->
+    <path d="
+        m   483,527
+            96,0
+            49,49
+            120,0
+            52,-91
+            82,49
+            -77,134
+            -241,0
+        z"
+    />
+
+    <!--NW Orb-->
+    <circle cx="323" cy="120" r="63" />
+</g>
+
+<use href="#g"
+    transform="rotate(120,503.5,433)"
+/>
+
+<use href="#g"
+    transform="rotate(240,503.5,433)"
+/>
+
+
+</svg>

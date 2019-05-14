@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1007 866"
+    xmlns:cc="http://creativecommons.org/ns#"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<style>
+* {
+    stroke: #000;
+    stroke-width: 4;
+    fill: #ff7633;
+}
+</style>
+
+<!--Outmost tail-->
+<rect x="597" y="99" width="140" height="77" />
+
+<!--NW trail-->
+<path d="
+    m   409,99
+        -112,0
+        -193,334
+        62,107
+        63,-63
+        -25,-44
+        148,-257
+        57,0
+    z"
+/>
+
+<!--S trail-->
+<path d="
+    m   350,703
+        307,0
+        25,-44
+        85,23
+        -62,107
+        -403,0
+        -62,-107
+        85,-23
+        25,44
+    z"
+/>
+
+<!--Center trail-->
+<path d="
+    m   424,253
+        383,0
+        104,180
+        -62,107
+        -63,-63
+        25,-44
+        -53,-93
+        -285,0
+        -70,121
+        -73,-42
+        94,-166
+    z"
+/>
+
+<!--N Orb-->
+<circle id="c"
+    cx="503.5" cy="137.5" r="72"
+/>
+
+<!--SE Orb-->
+<use href="#c"
+    transform="rotate(120, 503.5, 433)"
+/>
+
+<!--SW Orb-->
+<use href="#c"
+    transform="rotate(240, 503.5, 433)"
+/>
+
+</svg>
