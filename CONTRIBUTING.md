@@ -2,6 +2,16 @@
 
 Thank you for your interest in contributing to this project.
 
+## Issues
+
+Please be as descriptive as possible about issues encountered.
+
+## Requests
+
+Feel free to submit requests for other icons from Phantasy Star Online (the original).
+
+## Collaboration
+
 This project welcomes improvements and new icons. Open and unassigned issues listed on the issue tracker may be claimed. Other changes are welcome for consideration, the open issues simply reflect the maintainer's vision.
 
 The repository is intended to be relatively easy to read and maintain, so please be ready to discuss and be open to feedback.
