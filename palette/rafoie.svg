@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:xlink="http://www.w3.org/1999/xlink"
 >
@@ -50,11 +50,11 @@
 
 <!--SE burst half-->
 <use xlink:href="#g"
-    transform="rotate(180, 503.5, 433)"
+    transform="rotate(180, 500, 433)"
 />
 
 <!--N orb-->
-<circle id="c" cx="503.5" cy="305" r="72" />
+<circle id="c" cx="500" cy="305" r="72" />
 
 <!--SW orb-->
 <use xlink:href="#c"

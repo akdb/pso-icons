@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:xlink="http://www.w3.org/1999/xlink"
 >
@@ -51,32 +51,32 @@
 
 <!--NW Spike-->
 <use xlink:href="#g"
-    transform="rotate(60,503.5,433)"
+    transform="rotate(60,500,433)"
 />
 
 <!--NE Spike-->
 <use xlink:href="#g"
-    transform="rotate(120,503.5,433)"
+    transform="rotate(120,500,433)"
 />
 
 <!--EE Spike-->
 <use xlink:href="#g"
-    transform="rotate(180,503.5,433)"
+    transform="rotate(180,500,433)"
 />
 
 <!--SE Spike-->
 <use xlink:href="#g"
-    transform="rotate(240,503.5,433)"
+    transform="rotate(240,500,433)"
 />
 
 <!--SW Spike-->
 <use xlink:href="#g"
-    transform="rotate(300,503.5,433)"
+    transform="rotate(300,500,433)"
 />
 
 <!--Top orb-->
 <ellipse id="e"
-    cx="503.5" cy="109" rx="58" ry="51"
+    cx="500" cy="109" rx="58" ry="51"
 />
 
 <!--Lower left orb-->
@@ -90,6 +90,6 @@
 />
 
 <!--Center orb-->
-<circle cx="503.5" cy="433" r="78" />
+<circle cx="500" cy="433" r="78" />
 
 </svg>

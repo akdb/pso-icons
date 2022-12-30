@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:xlink="http://www.w3.org/1999/xlink"
 >
@@ -69,17 +69,17 @@
 
 <!--N Orb-->
 <circle id="c"
-    cx="503.5" cy="137.5" r="72"
+    cx="500" cy="137.5" r="72"
 />
 
 <!--SE Orb-->
 <use xlink:href="#c"
-    transform="rotate(120, 503.5, 433)"
+    transform="rotate(120, 500, 433)"
 />
 
 <!--SW Orb-->
 <use xlink:href="#c"
-    transform="rotate(240, 503.5, 433)"
+    transform="rotate(240, 500, 433)"
 />
 
 </svg>
