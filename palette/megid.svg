@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 866"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<style>
+* {
+    fill: #cb11ff;
+}
+</style>
+
+<!--N Edge-->
+<path id="e" d="
+    m   394,257
+        -70,122
+        -70,0
+        111,-192
+        270,0
+        111,192
+        -70,0
+        -70,-122
+    z"
+/>
+
+<!--S Edge-->
+<use xlink:href="#e"
+    transform="rotate(180, 500, 433)"
+/>
+
+<!--Center orb-->
+<circle cx="500" cy="433" r="95" />
+
+<!--N orb-->
+<circle id="c" cx="500" cy="98" r="38" />
+
+<!--NE orb-->
+<circle id="d" cx="500" cy="90" r="41"
+    transform="rotate(45, 500,433)"
+/>
+
+<!--E orb-->
+<use xlink:href="#c"
+    transform="translate(40,0) rotate(90, 500,433)"
+/>
+
+<!--SE orb-->
+<use xlink:href="#d"
+    transform="rotate(90, 500,433)"
+/>
+
+<!--S orb-->
+<use xlink:href="#c"
+    transform="rotate(180, 500,433)"
+/>
+
+<!--SW orb-->
+<use xlink:href="#d"
+    transform="rotate(180, 500,433)"
+/>
+
+<!--W orb-->
+<use xlink:href="#c"
+    transform="translate(-40,0) rotate(270, 500,433)"
+/>
+
+<!--NW orb-->
+<use xlink:href="#d"
+    transform="rotate(270, 500,433)"
+/>
+
+</svg>

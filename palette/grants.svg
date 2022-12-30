@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 866"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<style>
+* {
+    fill: #ffedaa;
+}
+</style>
+    
+<!--North, NW, NE-->
+<g id="g">
+    <!--Big shine-->
+    <path d="
+        m   500,30
+            40,23
+            0,231
+            -80,0
+            0,-231
+        z"
+    />
+    
+    <!--Small shine-->
+    <path id="s" d="
+        m   246,178
+            39,0
+            110,110
+            -14,25
+            -25,14
+            -110,-110
+        z"
+    />
+    
+    <use xlink:href="#s"
+        transform="rotate(90,500,433)"
+    />
+</g>
+
+<!--South, SW, SE-->
+<use xlink:href="#g"
+    transform="rotate(180,500,433)"
+/>
+
+<!--Orb-->
+<circle id="c"
+    cx="500" cy="433" r="97"
+/>
+
+<!--West-->
+<path id="w" d="
+    m   48,433
+        23,-40
+        280,0
+        0,80
+        -280,0
+    z"
+/>
+
+<!--East-->
+<use xlink:href="#w"
+    transform="rotate(180, 500,433)"
+/>
+
+</svg>
