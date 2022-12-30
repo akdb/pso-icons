@@ -14,8 +14,6 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
     fill: #efec00;
 }
 </style>
