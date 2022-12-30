@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -58,7 +59,7 @@
 />
 
 <!--SE Orb-->
-<use href="#e"
+<use xlink:href="#e"
     transform="rotate(180, 503.5, 433)"
 />
 

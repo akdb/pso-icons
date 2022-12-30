@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -61,10 +62,10 @@
 <circle id="c"
     cx="701" cy="133" r="62"
 />
-<use href="#c"
+<use xlink:href="#c"
     transform="translate(64,191)"
 />
-<use href="#c"
+<use xlink:href="#c"
     transform="translate(133,392)"
 />
 

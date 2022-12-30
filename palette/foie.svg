@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -46,7 +47,7 @@
 />
 
 <!--Bottom trail quad-->
-<use href="#p"
+<use xlink:href="#p"
     transform="scale(1,-1) translate(0,-866)"
 />
 

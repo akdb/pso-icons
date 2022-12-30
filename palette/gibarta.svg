@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -74,20 +75,20 @@
 />
 
 <!--Center spike orb-->
-<use href="#c" />
+<use xlink:href="#c" />
 
 <!--Base orb-->
-<use href="#c"
+<use xlink:href="#c"
     transform="translate(364,0)"
 />
 
 <!--Upper spike-->
-<use href="#g"
+<use xlink:href="#g"
     transform="rotate(33.3,928,433)"
 />
 
 <!--Lower spike-->
-<use href="#g"
+<use xlink:href="#g"
     transform="rotate(-33.3,928,433)"
 />
 

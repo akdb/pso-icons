@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -48,7 +49,7 @@
 </g>
 
 <!--SE burst half-->
-<use href="#g"
+<use xlink:href="#g"
     transform="rotate(180, 503.5, 433)"
 />
 
@@ -56,12 +57,12 @@
 <circle id="c" cx="503.5" cy="305" r="72" />
 
 <!--SW orb-->
-<use href="#c"
+<use xlink:href="#c"
     transform="translate(-133,238)"
 />
 
 <!--SE orb-->
-<use href="#c"
+<use xlink:href="#c"
     transform="translate(133,238)"
 />
 

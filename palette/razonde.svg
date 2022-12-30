@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1007 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -48,11 +49,11 @@
     <circle cx="323" cy="120" r="63" />
 </g>
 
-<use href="#g"
+<use xlink:href="#g"
     transform="rotate(120,503.5,433)"
 />
 
-<use href="#g"
+<use xlink:href="#g"
     transform="rotate(240,503.5,433)"
 />
 
