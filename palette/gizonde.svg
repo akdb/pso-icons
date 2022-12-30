@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -15,50 +14,50 @@
 </metadata>
 <style>
 * {
-    fill: #efef00;
+    fill: #efed00;
 }
 </style>
 
 <!--Center edge-->
 <path d="
-    m   319,263
-        173,0
-        196,340
-        -173,0
+    m   345,286
+        140,0
+        170,294
+        -140,0
     z"
 />
 
 <!--NE edge-->
 <path d="
-    m   408,87
-        343,0
-        73,126
-        -5,8
-        -95,0
-        -5,-8
-        -238,0
+    m   414,105
+        307,0
+        61,112
+        -4,7
+        -80,0
+        -4,-7
+        -227,0
     z"
 />
 
 <!--SW edge-->
 <path d="
-    m   599,779
-        -238,0
-        -5,8
-        -95,0
-        -78,-134
-        343,0
+    m   206,657
+        307,0
+        65,112
+        -267,0
+        -4,7
+        -40,0
     z"
 />
 
 <!--NW Orb-->
-<ellipse id="e"
-    cx="330" cy="162" rx="99" ry="94"
+<ellipse
+    cx="329" cy="158" rx="84" ry="79"
 />
 
 <!--SE Orb-->
-<use xlink:href="#e"
-    transform="rotate(180, 500, 433)"
+<ellipse
+    cx="665" cy="683" rx="87" ry="82"
 />
 
 </svg>
