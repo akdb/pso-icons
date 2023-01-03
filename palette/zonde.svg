@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
 >
 <metadata typeof="cc:Work">
@@ -14,40 +14,38 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
-    fill: #efec00;
+    fill: #efef00;
 }
 </style>
 
 <!--NW Edge-->
 <path d="
-    m   346,35
-        168,0
-        -205,356
-        -168,0
+    m   351,41
+        155,0
+        -197,342
+        -155,0
     z"
 />
 
 <!--Center Edge-->
 <path d="
-    m   403,267
-        453,0
-        -72,124
-        -453,0
+    m   405,275
+        420,0
+        -62,108
+        -420,0
     z"
 />
 
 <!--SE Edge-->
 <path d="
-    m   615,418
-        157,0
-        -122,211
-        -157,0
+    m   622,431
+        133,0
+        -106,184
+        -133,0
     z"
 />
 
 <!--Orb-->
-<ellipse cx="542" cy="734" rx="101" ry="95" />
+<ellipse cx="536" cy="740" rx="97" ry="88" />
 
 </svg>

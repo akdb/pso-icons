@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -14,58 +15,56 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
     fill: #31cbff;
 }
 </style>
 
 <!--Outer edge-->
 <path d="
-    m   285,94
-        299,0
-        -62,107
-        -180,0
-        -133,231
-        133,231
-        447,0
-        -62,107
-        -442,0
-        -195,-338
+    m   283,117
+        288,0
+        -55,96
+        -182,0
+        -127,220
+        127,220
+        432,0
+        -55,96
+        -432,0
+        -182,-316
     z"
 />
 
 <!--Upper spike-->
 <path d="
-    m   624,274
-        -237,0
-        -124,214
-        62,107
-        124,-214
-        113,0
+    m   612,293
+        -55,96
+        -135,0
+        -106,184
+        -55,-96
+        106,-184
     z"
 />
 
 <!--Lower spike-->
 <path d="
-    m   735,469
-        -243,0
-        -102,177
-        140,0
-        36,-70
-        107,0
+    m   727,475
+        -55,96
+        -135,0
+        -38,66
+        -119,0
+        94,-162
     z"
 />
 
 <!--Orbs-->
 <circle id="c"
-    cx="701" cy="133" r="62"
+    cx="697" cy="135" r="59"
 />
-<use href="#c"
-    transform="translate(64,191)"
+<use xlink:href="#c"
+    transform="translate(63,192)"
 />
-<use href="#c"
-    transform="translate(133,392)"
+<use xlink:href="#c"
+    transform="translate(134,390)"
 />
 
 </svg>

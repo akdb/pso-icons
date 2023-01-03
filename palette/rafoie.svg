@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -14,8 +15,6 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
     fill: #ff7633;
 }
 </style>
@@ -24,45 +23,45 @@
 <g id="g">
     <!--Spike-->
     <path d="
-        m   60,380
-            241,0
-            -31,53
-            31,53
-            -241,0
-            -31,-53
+        m   74,380
+            221,0
+            -37,53
+            37,53
+            -221,0
+            -37,-53
         z"
     />
 
     <!--Edge-->
     <path d="
-        m   301,77
-            405,0
-            156,271
-            -95,0
-            -108,-187
-            -311,0
-            -108,187
-            -95,0
+        m   288,86
+            421,0
+            146,253
+            -80,0
+            -105,-182
+            -343,0
+            -105,182
+            -80,0
         z"
     />
 </g>
 
 <!--SE burst half-->
-<use href="#g"
-    transform="rotate(180, 503.5, 433)"
+<use xlink:href="#g"
+    transform="rotate(180, 500,433)"
 />
 
 <!--N orb-->
-<circle id="c" cx="503.5" cy="305" r="72" />
+<circle id="c" cx="500" cy="310" r="65" />
 
 <!--SW orb-->
-<use href="#c"
-    transform="translate(-133,238)"
+<use xlink:href="#c"
+    transform="translate(-20,40) rotate(240,500,433)"
 />
 
 <!--SE orb-->
-<use href="#c"
-    transform="translate(133,238)"
+<use xlink:href="#c"
+    transform="translate(20,40) rotate(120,500,433)"
 />
 
 </svg>

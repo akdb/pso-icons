@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
 >
 <metadata typeof="cc:Work">
     This work, from
@@ -14,8 +15,6 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
     fill: #31cbff;
 }
 </style>
@@ -24,71 +23,72 @@
     <g id="g">
         <!--Orb-->
         <circle id="c"
-            cx="482" cy="433" r="60"
+            cx="485" cy="433" r="52"
         />
 
         <!--Spike base-->
-        <path d="
-            m   725,491
-                -157,0
-                0,-116
-                157,0
-                -15,58
+        <path id="b" d="
+            m   556,485
+                182,0
+                -26,-52
+                26,-52
+                -182,0
+            a   90,90 0 0 1 0,104
             z"
         />
         
         <!--Spike point-->
         <path d="
-            m   396,375
-                0,113
-                -72,0
-                -100,-58
-                100,-58
+            m   247,433
+                87,-51
+                79,0
+            a   90,90 0 0 0 0,104
+            l    -79,0
             z"
         />
     </g>
+
 </defs>
-
-
-<!--Center spike base-->
-<path d="
-    m   512,493
-        210,0
-        -10,-60
-        10,-60
-        -210,0
-    c   0,0 60,0 60,60
-        0,60 -60,60 -60,60
-    z"
-/>
 
 <!--Center spike end-->
 <path d="
-    m   452,373
-    c   0,0 -60,0 -60,60
-        0,60 60,60 60,60
-    l   -249,0
-        -95,-54
-        103,-60
+    m   142,433
+        87,-51
+        174,0
+    a   90,90 0 0 0 0,104
+    l    -174,0
+    z"
+/>
+
+<!--Center spike base-->
+<path d="
+    m   546,485
+        192,0
+        -26,-52
+        26,-52
+        -192,0
+    a   90,90 0 0 1 0,104
     z"
 />
 
 <!--Center spike orb-->
-<use href="#c" />
+<use xlink:href="#c"
+    transform="translate(-10,0)"
+/>
 
 <!--Base orb-->
-<use href="#c"
-    transform="translate(364,0)"
+<use xlink:href="#c"
+    transform="translate(354,0)"
 />
 
 <!--Upper spike-->
-<use href="#g"
-    transform="rotate(33.3,928,433)"
+<use xlink:href="#g"
+    transform="rotate(33, 928,433)"
 />
 
 <!--Lower spike-->
-<use href="#g"
-    transform="rotate(-33.3,928,433)"
+<use xlink:href="#g"
+    transform="rotate(-33, 928,433)"
 />
 
 </svg>

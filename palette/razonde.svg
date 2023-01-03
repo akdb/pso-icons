@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1007 866"
+    viewBox="0 0 1000 866"
     xmlns:cc="http://creativecommons.org/ns#"
->
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+><!--TODO:check tabs vs spaces-->
 <metadata typeof="cc:Work">
     This work, from
     <a property="cc:attributionName" rel="cc:attributionURL"
@@ -14,9 +15,7 @@
 </metadata>
 <style>
 * {
-    stroke: #000;
-    stroke-width: 4;
-    fill: #efec00;
+    fill: #efef00;
 }
 </style>
 
@@ -24,36 +23,36 @@
 <g id="g">
     <!--NW edge-->
     <path d="
-        m   198,444
-            -103,0
-            157,-271
-            80,46
+        m   80,424
+            161,-279
+        a   90,90 0 0 0 57,57
+        l   -128,222
         z"
     />
 
     <!--SE trail-->
     <path d="
-        m   483,527
-            96,0
-            49,49
-            120,0
-            52,-91
-            82,49
-            -77,134
-            -241,0
+        m   475,517
+            94,0
+            25,44
+            152,0
+            40,-70
+        a   90,90 0 0 0 68,39
+        l   -68,117
+            -236,0
         z"
     />
 
     <!--NW Orb-->
-    <circle cx="323" cy="120" r="63" />
+    <circle cx="326" cy="117" r="65" />
 </g>
 
-<use href="#g"
-    transform="rotate(120,503.5,433)"
+<use xlink:href="#g"
+    transform="rotate(120,500,433)"
 />
 
-<use href="#g"
-    transform="rotate(240,503.5,433)"
+<use xlink:href="#g"
+    transform="rotate(240,500,433)"
 />
 
 
