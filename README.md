@@ -13,6 +13,10 @@ To get code checked in to this repository, please observe the guidelines in [CON
 
 ## License
 
-Copyright (C) 2019 Justin Schwartz
+Copyright (C) 2023 Justin Schwartz
 
 These works are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Special Thanks
+
+Special thanks to [eleriaqueen](https://github.com/eleriaqueen/) for inspiration and resources.
