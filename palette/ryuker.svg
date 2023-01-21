@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 866"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<metadata typeof="cc:Work">
+    This work, from
+    <a property="cc:attributionName" rel="cc:attributionURL"
+        href="https://github.com/akdb/pso-icons"
+    >
+    pso-icons</a>, is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
+</metadata>
+<style>
+* {
+    fill: #9455f7;
+}
+</style>
+    
+<!--Center pillar-->
+<path d="
+    m   460,161
+        80,0
+        0,539
+        -80,0
+    z"
+/>
+
+<!--S Orb-->
+<circle id="c"
+    cx="500" cy="782" r="48"
+/>
+    
+<!--West partition-->
+<g id="g">
+    <!--Inner beam-->
+    <path d="
+        m   360,115
+            60,35
+            0,542
+            -60,-35
+        z"
+    />
+    
+    <!--Outer beam-->
+    <path d="
+        m   270,35
+            54,54
+            0,547
+            -54,-54
+        z"
+    />
+    
+    <use xlink:href="#c"
+        transform="translate(-170,-50)"
+    />
+    
+    <use xlink:href="#c"
+        transform="translate(-312,-182)"
+    />
+    
+    <use xlink:href="#c"
+        transform="translate(-292,-350)"
+    />
+</g>
+
+<!--East Partition-->
+<use xlink:href="#g"
+    transform="translate(1000,0) scale(-1, 1)"
+/>
+
+</svg>
